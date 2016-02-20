@@ -12,7 +12,7 @@ public class SimpleDotComGame {
         theDotCom.setLocationCells(locations);
         boolean isAlive = true;
 
-        while (isAlive == true) {
+        while (isAlive) {
             String guess = helper.getUserInput("Введите число");
             String result = theDotCom.checkYourself(guess);
             numGuesses++;
