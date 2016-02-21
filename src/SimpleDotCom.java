@@ -7,7 +7,7 @@ public class SimpleDotCom {
         locationCells = locs;
     }
 
-    public String checkYourself (String stringGuess) {
+    public String checkYourself(String stringGuess) {
         int guess = Integer.parseInt(stringGuess);
         String result = "Мимо";
 
