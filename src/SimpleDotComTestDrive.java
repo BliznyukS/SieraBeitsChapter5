@@ -18,13 +18,13 @@ public class SimpleDotComTestDrive {
         String result = dot.checkYourself(userGuess);
 
         //
-        /*String testResult = "Неудача";
+        String testResult = "Неудача";
 
         if (result.equals("Попал")) {
             testResult = "Пройден"; // Если ход (2) возвращает строку "Попал", значит всё работает.
         }
         //Печатаем резщультат теста
-        System.out.println(testResult);*/
+        System.out.println(testResult);
 
     }
 }
